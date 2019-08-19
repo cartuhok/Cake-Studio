@@ -1,0 +1,16 @@
+.wrapper {
+    h1 {
+        color: orangered;
+    }
+}
+.wrapper {
+    display: grid;
+}
+.box {
+    display: flex;
+    background-color: bisque;
+    height: 30vh;
+    p {
+        color: darkorange;
+    }
+}
