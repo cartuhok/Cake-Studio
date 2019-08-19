@@ -5,7 +5,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
     entry: ['@babel/polyfill', './src/js/index.js'], //where webpack will start the bundling
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: '/',
         filename: 'js/bundle.js'
     },
     devServer: {
